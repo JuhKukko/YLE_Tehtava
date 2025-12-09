@@ -1,5 +1,7 @@
 # YLE Tehtävä - vieraskielisten lasten osuus Suomen päiväkodeissa 
 
+## [Linkki koneeseen (Github Pages)](https://juhkukko.github.io/YLE_Tehtava/)
+
 ### Huomioita:
 
 #### Yksityisyydensuojan vuoksi niiden kuntien vieraskielisten lasten lukumäärää ei näytetä, joissa se on kymmenen tai alle.
