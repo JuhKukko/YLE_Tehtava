@@ -18,8 +18,16 @@ return (
                     <Heading size="8" color="indigo">{calculatePercentage(selectedMunicipality)} %</Heading>
                 </Box>
                 <Box>
-                    <Text size="1" color="gray" weight="bold" style={{ textTransform: "uppercase" }}>Lukumäärä</Text>
-                    <Text as="div" size="3">{selectedMunicipality.Vieraskieliset} {selectedMunicipality.Vieraskieliset == 1 ? "vieraskielinen" : "vieraskielistä"} {selectedMunicipality.Varhaiskasvatus} lapsesta</Text>
+                    {selectedMunicipality.Vieraskieliset <= 10 ? (                        
+                        <>                        
+                           { /* Yksityisyydensuojan vuoksi vieraskielisten lukumäärää ei näytetä, kun se on kymmenen tai alle. */ }                        
+                        </>
+                    ) : (                        
+                        <>
+                            <Text size="1" color="gray" weight="bold" style={{ textTransform: "uppercase" }}>Lukumäärä</Text>
+                            <Text as="div" size="3">{selectedMunicipality.Vieraskieliset} {selectedMunicipality.Vieraskieliset == 1 ? "vieraskielinen" : "vieraskielistä"} {selectedMunicipality.Varhaiskasvatus} lapsesta</Text>
+                        </>
+                    )}                    
                 </Box>
             </Flex>
         ) : (
