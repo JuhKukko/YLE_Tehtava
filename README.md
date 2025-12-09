@@ -2,7 +2,7 @@
 
 ### Huomioita:
 
-#### Yksityisyydensuojan vuoksi vieraskielisten lukumäärää ei näytetä, kun se on kymmenen tai alle.
+#### Yksityisyydensuojan vuoksi niiden kuntien vieraskielisten lasten lukumäärää ei näytetä, joissa se on kymmenen tai alle.
 
 ### Mitä tekisin seuraavaksi:
 
@@ -12,6 +12,6 @@
 
 #### - Visuaalisen ilmeen kohotus: värit, kuvitus, muu grafiikka yms.
 
-#### - Uusi pylväs diagrammiin, jossa kaikkien Suomen kuntien vieraskielisten lasten osuus prosenteissa.
+#### - Uusi pylväs diagrammiin, jossa näkyisi kaikkien Suomen kuntien vieraskielisten lasten osuus prosenteissa.
 
 #### - Koneen layout on nyt suunniteltu upotettavaksi Yle.fi-sivustolle. Jos koneella olisi itsenäinen sivu niin nykyistä layouttia täytyisi täydentää.
