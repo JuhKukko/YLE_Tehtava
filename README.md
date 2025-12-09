@@ -1,16 +1,17 @@
 # YLE Tehtävä - vieraskielisten lasten osuus Suomen päiväkodeissa 
 
-## Huomioita:
+### Huomioita:
 
-### Yksityisyydensuojan vuoksi vieraskielisten lukumäärää ei näytetä, kun se on kymmenen tai alle.
+#### Yksityisyydensuojan vuoksi vieraskielisten lukumäärää ei näytetä, kun se on kymmenen tai alle.
 
-## Mitä tekisin seuraavaksi:
+### Mitä tekisin seuraavaksi:
 
-### Yksikkötestit prosenttilaskulle ja CSV-parserille.
+#### - Yksikkötestit prosenttilaskulle ja CSV-parserille.
 
-### Responsiivisuus mobiililaitteita varten.
+#### - Responsiivisuus mobiililaitteita varten.
 
-### Visuaalisen ilmeen kohotus: uudet tyylit, värit, muu grafiikka yms.
+#### - Visuaalisen ilmeen kohotus: värit, kuvitus, muu grafiikka yms.
 
-### Uusi pylväs diagrammiin, jossa kaikkien Suomen kuntien vieraskielisten lasten osuus prosenteissa.
+#### - Uusi pylväs diagrammiin, jossa kaikkien Suomen kuntien vieraskielisten lasten osuus prosenteissa.
 
+#### - Koneen layout on nyt suunniteltu upotettavaksi Yle.fi-sivustolle. Jos koneella olisi itsenäinen sivu niin nykyistä layouttia täytyisi täydentää.
