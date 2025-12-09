@@ -6,6 +6,8 @@
 
 ### Mitä tekisin seuraavaksi:
 
+#### - Tarvittaessa Javascript-koodien muuttaminen Typescriptiksi
+
 #### - Yksikkötestit prosenttilaskulle ja CSV-parserille.
 
 #### - Responsiivisuus mobiililaitteita varten.
