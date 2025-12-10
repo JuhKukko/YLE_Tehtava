@@ -15,7 +15,7 @@ return (
                  </Box>
                 <Box>
                     <Text size="1" color="gray" weight="bold" style={{ textTransform: "uppercase" }}>Vieraskielisten osuus</Text>
-                    <Heading size="8" color="indigo">{calculatePercentage(selectedMunicipality)} %</Heading>
+                    <Heading size="8" color="indigo">{calculatePercentage(selectedMunicipality).toLocaleString('fi-FI')} %</Heading>
                 </Box>
                 <Box>
                     {selectedMunicipality.Vieraskieliset <= 10 ? (                        

@@ -97,7 +97,7 @@ const MunicipalityChart = ( { municipalitiesToBeShown, csvData, selectedMunicipa
         .selectAll("text")  
         .data(municipalitiesData)
         .join("text")
-            .text(d => calculatePercentage(d) + "%")
+            .text(d => calculatePercentage(d).toLocaleString('fi-FI') + "%")
             .attr("x", d => x(d.Kunta) + x.bandwidth() / 2)
             .attr("y", d => y(calculatePercentage(d)) - 10)
             .attr("text-anchor", "middle")
